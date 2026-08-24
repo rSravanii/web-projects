@@ -1,4 +1,6 @@
 # Stylish Sign-In Page
+<img width="837" height="842" alt="Screenshot 2026-08-24 191227" src="https://github.com/user-attachments/assets/3b4e81d4-2d13-456f-8331-528f51f41617" />
+
 
 A modern, glassmorphism-inspired **Sign-In page** built with **HTML** and **CSS**.  
 It features a gradient background, blurred card effect, smooth animations, and responsive design.
