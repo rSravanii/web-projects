@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Grid Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">✨ My Gallery ✨</h1>
+    <p class="para">This is a collection of my favorite nature photographs.</p>
+    
+    <div class="gallery">
+      <figure>
+        <img src="img1.jpeg" alt="Nature 1">
+        <figcaption>LION</figcaption>
+      </figure>
+      <figure>
+        <img src="img2.jpeg" alt="Nature 2">
+        <figcaption>moon&sparks</figcaption>
+      </figure>
+      <figure>
+        <img src="img3.jpeg" alt="Nature 3">
+        <figcaption>adorable Eye</figcaption>
+      </figure>
+      <figure>
+        <img src="img4.jpeg" alt="Nature 4">
+        <figcaption>bird</figcaption>
+      </figure>
+      <figure>
+        <img src="img5.jpeg" alt="Nature 5">
+        <figcaption>nature</figcaption>
+      </figure>
+      <figure>
+        <img src="img6.jpeg" alt="Nature 6">
+        <figcaption>girl</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="hidden">
+    <span id="close">&times;</span>
+    <img id="lightbox-img" src="">
+    <p id="caption"></p>
+    <div class="controls">
+      <span id="prev">&#10094;</span>
+      <span id="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
